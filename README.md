@@ -1,8 +1,6 @@
 🍇 Projeto IoT - Monitoramento da Vinheria Agnello 🍷
 1. Desenvolvedores
-Leonardo Grosskopf
-
-Thayná Lopes
+Leonardo Grosskopf e Thayná Lopes
 
 2. Descrição do Projeto
 Este projeto é uma solução de Internet das Coisas (IoT) desenvolvida para o "Caso da Vinheria Agnello", como parte do Checkpoint 05 de Edge Computing & Computer Systems .
