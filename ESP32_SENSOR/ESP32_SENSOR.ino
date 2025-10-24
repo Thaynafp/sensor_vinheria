@@ -5,7 +5,7 @@
 // --- Configurações Wi-Fi e MQTT ---
 const char* default_SSID = "SUA REDE WI-FI";
 const char* default_PASSWORD = "SENHA DA SUA REDE WI-FI";
-const char* default_BROKER_MQTT = "192.168.204.128"; // IP do Broker MQTT (VM)
+const char* default_BROKER_MQTT = "SEU IP"; // IP do Broker MQTT (VM)
 const int default_BROKER_PORT = 1883; // Porta do Broker MQTT
 
 // --- Configurações - Dispositivo FIWARE ---
