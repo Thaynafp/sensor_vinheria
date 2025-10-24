@@ -1,17 +1,13 @@
 # 🍇 Projeto IoT - Monitoramento da Vinheria Agnello 🍷
 
+[![FIWARE](https://img.shields.io/badge/FIWARE-005383?style=for-the-badge&logo=fiware&logoColor=white)](https://www.fiware.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
+[![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)](https://mqtt.org/)
+[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
 
-\<img src="[https://img.shields.io/badge/FIWARE-005383?style=for-the-badge\&logo=fiware\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/FIWARE-005383%3Fstyle%3Dfor-the-badge%26logo%3Dfiware%26logoColor%3Dwhite)" alt="FIWARE" /\>
-\<img src="[https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Docker-2496ED%3Fstyle%3Dfor-the-badge%26logo%3Ddocker%26logoColor%3Dwhite)" alt="Docker" /\>
-\<img src="[https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Postman-FF6C37%3Fstyle%3Dfor-the-badge%26logo%3Dpostman%26logoColor%3Dwhite)" alt="Postman" /\>
-\<img src="[https://img.shields.io/badge/MQTT-660066?style=for-the-badge\&logo=mqtt\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/MQTT-660066%3Fstyle%3Dfor-the-badge%26logo%3Dmqtt%26logoColor%3Dwhite)" alt="MQTT" /\>
-\<img src="[https://img.shields.io/badge/Arduino-00979D?style=for-the-badge\&logo=arduino\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Arduino-00979D%3Fstyle%3Dfor-the-badge%26logo%3Darduino%26logoColor%3Dwhite)" alt="Arduino" /\>
-\<img src="[https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/C%252B%252B-00599C%3Fstyle%3Dfor-the-badge%26logo%3Dcplusplus%26logoColor%3Dwhite)" alt="C++" /\>
-
-
-
-
-## 1\. Descrição do Projeto
+## 1. Descrição do Projeto
 
 Este projeto é uma solução de Internet das Coisas (IoT) desenvolvida para o Checkpoint 05 de Edge Computing & Computer Systems: "O Caso da Vinheria Agnello".
 
@@ -19,18 +15,18 @@ O desafio é evoluir um sistema de monitoramento para a adega, controlando os fa
 
 > "...precisamos monitorar a temperatura e a umidade do ambiente... eu preciso saber exatamente qual a temperatura e a umidade do depósito..."
 
-> "Preciso ter os dados históricos dos últimos dias e meses\!"
+> "Preciso ter os dados históricos dos últimos dias e meses!"
 
 > "Queremos integrar nossa empresa a distribuidoras presentes no mercado Europeu"
 
 Para atender a essas demandas, a solução implementa a plataforma FIWARE, o protocolo MQTT, e armazena o histórico de dados para rastreabilidade.
 
-## 2\. Desenvolvedores
+## 2. Desenvolvedores
 
   - Leonardo Grosskopf RM: 562255
   - Thayná Lopes RM: 566349
 
-## 3\. Arquitetura da Solução
+## 3. Arquitetura da Solução
 
 O fluxo de dados segue a arquitetura padrão do FIWARE, conforme ilustrado no diagrama do desafio:
 
@@ -43,8 +39,7 @@ O fluxo de dados segue a arquitetura padrão do FIWARE, conforme ilustrado no di
       - **STH-Comet** (Porta 8666) assina o Orion e salva o histórico no MongoDB.
       - **Usuário** (Postman/MyMQTT) interage com o sistema via API (NGSIv2).
 
-## 4\. Conteúdo do Repositório
-
+## 4. Conteúdo do Repositório
 
 ```
 .
@@ -55,12 +50,11 @@ O fluxo de dados segue a arquitetura padrão do FIWARE, conforme ilustrado no di
 └── README.md
 ```
 
-## 5\. Requisitos
+## 5. Requisitos
 
 ### Hardware 🔌
 
   - Placa ESP32 (ESP32-VROOM-32D)
-  - Placa Shield de Sensores (conforme o diagrama do projeto)
   - Sensor DHT11 (Temperatura e Umidade)
   - Sensor LDR (Luminosidade)
 
@@ -71,7 +65,7 @@ O fluxo de dados segue a arquitetura padrão do FIWARE, conforme ilustrado no di
   - Postman (para configurar e testar a API)
   - MyMQTT (ou qualquer cliente MQTT para teste no celular)
 
-## 6\. Guia de Replicação
+## 6. Guia de Replicação
 
 Siga estes passos para configurar e executar o projeto completo.
 
@@ -102,7 +96,7 @@ Siga estes passos para configurar e executar o projeto completo.
     # No macOS/Linux
     ifconfig
     ```
-3.  **Configure o Postman:** Na coleção importada, clique no nome dela -\> aba "Variables" -\> edite a variável `{{url}}` para o IP que você acabou de anotar (ex: `http://192.168.1.10`).
+3.  **Configure o Postman:** Na coleção importada, clique no nome dela -> aba "Variables" -> edite a variável `{{url}}` para o IP que você acabou de anotar (ex: `http://192.168.1.10`).
 4.  Execute as Requisições na ordem:
     1.  `(IoT-Agent) 1.1 Health Check` (Espera: 200 OK)
     2.  `(IoT-Agent) 2. Provisioning a Service Group` (Espera: 201 Created)
@@ -134,7 +128,7 @@ Siga estes passos para configurar e executar o projeto completo.
 
 Este passo cumpre o requisito de "leitura e escrita dos dados de IoT pelo aplicativo MyMQTT".
 
-#### 4.1. Leitura de Dados (ESP32 -\> MyMQTT)
+#### 4.1. Leitura de Dados (ESP32 -> MyMQTT)
 
 1.  Abra o app MyMQTT no seu celular (conectado ao mesmo Wi-Fi).
 2.  Adicione o Broker:
