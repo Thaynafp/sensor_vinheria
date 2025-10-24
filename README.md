@@ -1,4 +1,4 @@
-\<div align="center"\>
+
 
 # 🍇 Projeto IoT - Monitoramento da Vinheria Agnello 🍷
 
@@ -11,7 +11,7 @@
 \<img src="[https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/C%252B%252B-00599C%3Fstyle%3Dfor-the-badge%26logo%3Dcplusplus%26logoColor%3Dwhite)" alt="C++" /\>
 \</p\>
 
-\</div\>
+
 
 ## 1\. Descrição do Projeto
 
