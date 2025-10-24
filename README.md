@@ -2,16 +2,6 @@
 
 <p align="center"> <img src="" alt="FIWARE" /> <img src="" alt="Docker" /> <img src="" alt="Postman" /> <img src="" alt="MQTT" /> <img src="" alt="Arduino" /> <img src="" alt="C++" /> </p>
 
-📋 Índice
-
-
-
-
-
-
-
-
-
 
 1. Descrição do Projeto
 Este projeto é uma solução de Internet das Coisas (IoT) desenvolvida para o Checkpoint 05 de Edge Computing & Computer Systems: "O Caso da Vinheria Agnello" .
@@ -63,12 +53,13 @@ Sensor DHT11 (Temperatura e Umidade)
 Sensor LDR (Luminosidade)
 
 Software 💻
-&
+Docker e Docker Compose (para rodar os serviços FIWARE)
 
+Arduino IDE (com o board do ESP32 instalado)
 
-(com o board do ESP32 instalado)
+Postman (para configurar e testar a API)
 
-(ou qualquer cliente MQTT)
+MyMQTT (ou qualquer cliente MQTT para teste no celular)
 
 
 6. Guia de Replicação
