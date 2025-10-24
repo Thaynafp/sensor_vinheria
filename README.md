@@ -1,15 +1,13 @@
-
-
 # 🍇 Projeto IoT - Monitoramento da Vinheria Agnello 🍷
 
-\<p\>
+
 \<img src="[https://img.shields.io/badge/FIWARE-005383?style=for-the-badge\&logo=fiware\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/FIWARE-005383%3Fstyle%3Dfor-the-badge%26logo%3Dfiware%26logoColor%3Dwhite)" alt="FIWARE" /\>
 \<img src="[https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Docker-2496ED%3Fstyle%3Dfor-the-badge%26logo%3Ddocker%26logoColor%3Dwhite)" alt="Docker" /\>
 \<img src="[https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Postman-FF6C37%3Fstyle%3Dfor-the-badge%26logo%3Dpostman%26logoColor%3Dwhite)" alt="Postman" /\>
 \<img src="[https://img.shields.io/badge/MQTT-660066?style=for-the-badge\&logo=mqtt\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/MQTT-660066%3Fstyle%3Dfor-the-badge%26logo%3Dmqtt%26logoColor%3Dwhite)" alt="MQTT" /\>
 \<img src="[https://img.shields.io/badge/Arduino-00979D?style=for-the-badge\&logo=arduino\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Arduino-00979D%3Fstyle%3Dfor-the-badge%26logo%3Darduino%26logoColor%3Dwhite)" alt="Arduino" /\>
 \<img src="[https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/C%252B%252B-00599C%3Fstyle%3Dfor-the-badge%26logo%3Dcplusplus%26logoColor%3Dwhite)" alt="C++" /\>
-\</p\>
+
 
 
 
@@ -47,7 +45,6 @@ O fluxo de dados segue a arquitetura padrão do FIWARE, conforme ilustrado no di
 
 ## 4\. Conteúdo do Repositório
 
-*(Esta seção pode ser preenchida com a estrutura de pastas do seu projeto, por exemplo:)*
 
 ```
 .
